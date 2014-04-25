@@ -11,6 +11,7 @@ public class Person
 {
 	private final String name;
 	private final Optional<String> email;
+	private final Object myField;
 
 	private Person(String name, String email)
 	{
