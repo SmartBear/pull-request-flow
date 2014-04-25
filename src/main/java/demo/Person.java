@@ -11,6 +11,7 @@ public class Person
 {
 	private final String name;
 	private final Optional<String> email;
+	private final Object betterName;
 
 	private Person(String name, String email)
 	{
@@ -25,6 +26,7 @@ public class Person
 
 	public String getName()
 	{
+		// TODO: wat
 		return name;
 	}
 
