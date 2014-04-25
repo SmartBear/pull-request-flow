@@ -11,7 +11,7 @@ public class Person
 {
 	private final String name;
 	private final Optional<String> email;
-	private final Object myField;
+	private final Object betterName;
 
 	private Person(String name, String email)
 	{
